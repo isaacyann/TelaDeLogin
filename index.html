@@ -8,7 +8,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div class="hidden">
@@ -17,18 +17,22 @@
 
       <form>
         <h2 class="fonth">Nome de Usuário</h2>
-        <input type="text" id="User" />
+        <input type="text" id="User" class="input" />
 
         <h2 class="fonth">Senha</h2>
-        <input type="password" id="Senha" />
+        <input type="password" id="Senha" class="input" />
         <i class="bi bi-eye" id="btn-senha" onclick="mostrarSenha()"></i>
+
+
+        <input type="submit" value="Logar" id="btn-enviar">
       </form>
+
 
       <h3>Ainda não tem uma conta?<a href=''> Cadastrar-se </a></h3>
     </div>
 
 
 
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

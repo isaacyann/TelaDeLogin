@@ -30,7 +30,7 @@ div {
   padding: 20px;
 }
 
-input {
+.input {
   width: 250px;
   height: 30px;
   outline: 0;
@@ -41,7 +41,7 @@ input {
 div i {
   font-size: 25px;
   cursor: pointer;
-  position: absolute;
+  position: fixed;
   top: 55%;
   right: 37%;
   padding: 10px;
@@ -76,4 +76,23 @@ h3 {
   filter: blur(0);
   transform: translateX(0);
   transition: all 2s;
+}
+
+#btn-enviar {
+  display: block;
+  width: 250px;
+  height: 40px;
+  background-color: #461b59;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+  
+}
+    
+#btn-enviar:hover {
+  background-color: #672f77;
 }
